@@ -5,7 +5,7 @@ variable "aws_region" {
 }
 
 variable "project_name" {
-  description = "The AWS profile to use for authentication"
+  description = "The AWS project name to deploy resources in"
   type        = string
   default     = "aws-s3-terraform"
 }
