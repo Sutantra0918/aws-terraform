@@ -1,0 +1,35 @@
+
+# Terraform provider downloads and local working directory
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform plans
+tfplan
+*.tfplan
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local test files
+cloudtrail-test.txt
+downloaded-cloudtrail-test.txt
